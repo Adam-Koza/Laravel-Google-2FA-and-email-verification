@@ -1,10 +1,8 @@
 # Laravel-with-Google-2FA-and-email-verification
 Laravel with Google Two-Factor Authentication and E-mail Verification
 
-Project was constructed following these tutorials:
-
+This project was constructed following these tutorials:
 Email verification: https://itsolutionstuff.com/post/laravel-5-email-verification-with-activation-code-exampleexample.html
-
 Google 2FA: https://www.5balloons.info/two-factor-authentication-google2fa-laravel-5/
 
 # Install:
