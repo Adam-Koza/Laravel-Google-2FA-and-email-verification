@@ -12,7 +12,7 @@
 			@if(Session::get('alert')[0] == "P")
 				<div class="alert alert-warning">
                         @endif
-                        @if(Session::get('alert')[0] == "R")
+                        @if((Session::get('alert')[0] == "R") || (Session::get('alert')[0] == "Y"))
                                 <div class="alert alert-success">
 			@endif
     				{{ Session::get('alert') }}

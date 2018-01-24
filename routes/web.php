@@ -18,11 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/2fa','PasswordSecurityController@show2faForm');
+Route::post('/generate2faSecret','PasswordSecurityController@generate2faSecret')->name('generate2faSecret');
+Route::post('/2fa','PasswordSecurityController@enable2fa')->name('enable2fa');
+Route::post('/disable2fa','PasswordSecurityController@disable2fa')->name('disable2fa');
 
-Route::get('/complete-registration', 'Auth\RegisterController@completeRegistration');
-
-Route::get('/re-authenticate', 'HomeController@reauthenticate');
-
-Route::post('/2fa', function () {
-    return redirect(url()->previous());
-})->name('2fa')->middleware('2fa');
+Route::post('/2faVerify', function () {
+    return redirect(URL()->previous());
+})->name('2faVerify')->middleware('2fa');
