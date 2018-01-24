@@ -2,7 +2,9 @@
 Laravel 5.5 with Google Two-Factor Authentication and E-mail Verification
 
 This project was constructed following these tutorials:
+
 Email verification: https://itsolutionstuff.com/post/laravel-5-email-verification-with-activation-code-exampleexample.html
+
 Google 2FA: https://www.5balloons.info/two-factor-authentication-google2fa-laravel-5/
 
 # Verification email is sent to user upon registration:
