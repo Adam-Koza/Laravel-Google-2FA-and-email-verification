@@ -1,11 +1,13 @@
 # Laravel-with-Google-2FA-and-email-verification
 Laravel with Google 2FA and email verification
 
-Project was constructed following these tutorials: 
+Project was constructed following these tutorials:
+
 Email verification: https://itsolutionstuff.com/post/laravel-5-email-verification-with-activation-code-exampleexample.html
+
 Google 2FA: https://www.5balloons.info/two-factor-authentication-google2fa-laravel-5/
 
-Install:
+# Install:
 
 - Clone your project.
 - Install composer: "curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer"
