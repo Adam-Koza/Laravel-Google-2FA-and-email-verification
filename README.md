@@ -1,5 +1,5 @@
 # Laravel-with-Google-2FA-and-email-verification
-Laravel with Google 2FA and email verification
+Laravel with Google Two-Factor Authentication and E-mail Verification
 
 Project was constructed following these tutorials:
 
@@ -14,9 +14,9 @@ Google 2FA: https://www.5balloons.info/two-factor-authentication-google2fa-larav
 - Go to the folder application using cd.
 - Run "composer install" on your cmd or terminal.
 - Copy .env.example file to .env on root folder. You can type copy .env.example .env if using command prompt Windows or "cp .env.example .env" if using terminal Ubuntu.
-- Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
-- By default, username is root and you can leave password field empty. (This is for Xampp).
-- By default, username is root and password is also root. (This is for Lamp).
+- Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration. By default, username is root and you can leave password field empty. (This is for Xampp). By default, username is root and password is also root. (This is for Lamp).
+- In your .env file enter your SMTP information for sending mail.
+- in config/mail.php, on line 59 change hello@example.com to your mailing from address and replace "Your Name Here" with your name.
 - Run php artisan key:generate
 - Run php artisan migrate
 - Run php artisan serve
