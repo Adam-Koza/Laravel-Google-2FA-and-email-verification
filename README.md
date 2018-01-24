@@ -15,6 +15,7 @@ Google 2FA: https://www.5balloons.info/two-factor-authentication-google2fa-larav
 - Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration. By default, username is root and you can leave password field empty. (This is for Xampp). By default, username is root and password is also root. (This is for Lamp).
 - In your .env file enter your SMTP information for sending mail.
 - in config/mail.php, on line 59 change hello@example.com to your mailing from address and replace "Your Name Here" with your name.
+- in app/Http/Controllers/PasswordSecurityController.php on line 28, replace "COMPANY NAME" with your website, this is what the token will be named on user's google authenticators.
 - Run php artisan key:generate
 - Run php artisan migrate
 - Run php artisan serve
