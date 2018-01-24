@@ -1,4 +1,4 @@
-# Laravel-with-Google-2FA-and-email-verification
+# Laravel-Google-2FA-and-email-verification
 Laravel 5.5 with Google Two-Factor Authentication and E-mail Verification
 
 This project was constructed following these tutorials:
