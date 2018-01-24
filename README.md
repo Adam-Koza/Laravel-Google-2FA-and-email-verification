@@ -5,6 +5,10 @@ This project was constructed following these tutorials:
 Email verification: https://itsolutionstuff.com/post/laravel-5-email-verification-with-activation-code-exampleexample.html
 Google 2FA: https://www.5balloons.info/two-factor-authentication-google2fa-laravel-5/
 
+![Send Email Verification](https://i.imgur.com/wgbyrzi.png)
+
+
+
 # Install:
 
 - Clone your project.
